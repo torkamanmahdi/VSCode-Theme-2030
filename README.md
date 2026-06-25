@@ -3,7 +3,7 @@
 A futuristic **2030 terminal-style** color theme for VS Code, inspired by modern AI CLIs (like Claude CLI).
 Deep-space dark background, neon accents, and **every syntax element gets its own distinct color** — so reading code feels like reading a live terminal stream.
 
-![Neon Terminal 2030 preview](screenshot.png)
+![Neon Terminal 2030 preview]
 
 ## ✨ Variants
 - **Neon Terminal 2030** — deep blue-black canvas (`#0A0D14`)

@@ -2,8 +2,8 @@
   "name": "neon-terminal-2030",
   "displayName": "Neon Terminal 2030",
   "description": "A futuristic 2030 terminal-style theme inspired by AI CLIs — every syntax element has its own distinct neon color. Ships dark, OLED void, and daylight variants, an optional neon-glow add-on, and a settings panel.",
-  "version": "1.1.0",
-  "publisher": "majid",
+  "version": "1.0.0",
+  "publisher": "MahdiTorkaman",
   "engines": {
     "vscode": "^1.70.0"
   },
