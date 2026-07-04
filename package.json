@@ -4,6 +4,15 @@
   "description": "A futuristic 2030 terminal-style theme collection inspired by AI CLIs — every syntax element gets its own distinct color. Seven variants: dark, OLED void, daylight, solar, synthwave, matrix, and aurora.",
   "version": "1.1.1",
   "publisher": "MahdiTorkaman",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/torkamanmahdi/VSCode-Theme-2030.git"
+  },
+  "homepage": "https://github.com/torkamanmahdi/VSCode-Theme-2030#readme",
+  "bugs": {
+    "url": "https://github.com/torkamanmahdi/VSCode-Theme-2030/issues"
+  },
+  "license": "MIT",
   "engines": {
     "vscode": "^1.70.0"
   },
