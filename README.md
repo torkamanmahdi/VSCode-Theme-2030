@@ -32,38 +32,6 @@ Each role has one signature color — nothing is reused arbitrarily:
 
 Fully styled surfaces include **sticky scroll**, **inlay hints**, **ghost text / inline AI suggestions**, **bracket-pair guides**, **merge conflicts**, **notebooks**, the **command center**, **charts**, **minimap markers**, **testing/debug icons**, and rainbow bracket-pair colors. The integrated terminal ships a full neon ANSI palette.
 
-## 🛠 Settings Panel
-
-A built-in neon control panel ties it all together.
-
-> **Command Palette → “Neon Terminal 2030: Open Settings Panel”**
-
-From the panel you can:
-- 🎚 Switch between the three variants in one click
-- ⚙️ **Apply recommended editor settings** (bracket colors, semantic highlighting, ligatures, sticky scroll, inlay hints, smooth caret) in one shot
-- 🌟 **Toggle the neon glow add-on**, and tune its **strength**, **bloom radius**, and **accent color** with live sliders
-
-Other commands:
-- `Neon Terminal 2030: Apply Recommended Editor Settings`
-- `Neon Terminal 2030: Toggle Neon Glow Add-on`
-
-## 🌟 Neon Glow Add-on (real bloom & motion)
-
-VS Code themes **cannot** emit glow or animation on their own. The glow add-on injects CSS via the **[Custom CSS and JS Loader](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css)** extension to add:
-- text-shadow **bloom** on syntax tokens
-- a **pulsing terminal cursor**
-- glowing active line numbers, activity-bar indicator, status bar, active tab, and widgets
-
-**Easiest way:** open the settings panel and flip **Enable neon glow** — it installs the dependency (with your OK), writes a tuned stylesheet, and wires it up. Then run *“Reload Custom CSS and JS”* and restart.
-
-**Manual way:** point Custom CSS at the bundled stylesheet:
-```jsonc
-"vscode_custom_css.imports": [
-  "file:///<abs-path-to-extension>/styles/neon-glow.css"
-]
-```
-> ⚠️ Custom CSS patches the VS Code shell, so it shows an *“installation is corrupt”* banner — that’s expected and dismissable. Disable the glow add-on to revert.
-
 ## 🚀 Install / Try Locally
 
 1. Copy this folder into your VS Code extensions dir, or open it and press **F5** to launch an Extension Development Host.
@@ -77,7 +45,7 @@ vsce package
 Then **Extensions → ⋯ → Install from VSIX…**
 
 ## 💡 Recommended settings
-The settings panel can apply these for you, or set them manually:
+Set these for the best look:
 ```jsonc
 {
   "editor.bracketPairColorization.enabled": true,

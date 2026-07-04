@@ -1,13 +1,12 @@
 {
   "name": "neon-terminal-2030",
   "displayName": "Neon Terminal 2030",
-  "description": "A futuristic 2030 terminal-style theme inspired by AI CLIs — every syntax element has its own distinct neon color. Ships dark, OLED void, and daylight variants, an optional neon-glow add-on, and a settings panel.",
+  "description": "A futuristic 2030 terminal-style theme inspired by AI CLIs — every syntax element has its own distinct neon color. Ships dark, OLED void, and daylight variants.",
   "version": "1.0.0",
   "publisher": "MahdiTorkaman",
   "engines": {
     "vscode": "^1.70.0"
   },
-  "main": "./extension.js",
   "categories": [
     "Themes"
   ],
@@ -19,14 +18,12 @@
     "terminal",
     "cyberpunk",
     "2030",
-    "cli",
-    "glow"
+    "cli"
   ],
   "galleryBanner": {
     "color": "#07090E",
     "theme": "dark"
   },
-  "activationEvents": [],
   "contributes": {
     "themes": [
       {
@@ -44,48 +41,6 @@
         "uiTheme": "vs",
         "path": "./themes/neon-terminal-2030-daylight-color-theme.json"
       }
-    ],
-    "commands": [
-      {
-        "command": "neonTerminal2030.openSettings",
-        "title": "Neon Terminal 2030: Open Settings Panel",
-        "category": "Neon Terminal 2030"
-      },
-      {
-        "command": "neonTerminal2030.applyRecommended",
-        "title": "Neon Terminal 2030: Apply Recommended Editor Settings",
-        "category": "Neon Terminal 2030"
-      },
-      {
-        "command": "neonTerminal2030.toggleGlow",
-        "title": "Neon Terminal 2030: Toggle Neon Glow Add-on",
-        "category": "Neon Terminal 2030"
-      }
-    ],
-    "configuration": {
-      "title": "Neon Terminal 2030",
-      "properties": {
-        "neonTerminal2030.glow.strength": {
-          "type": "number",
-          "default": 0.55,
-          "minimum": 0,
-          "maximum": 1,
-          "markdownDescription": "Neon bloom intensity for the glow add-on (0 = off, 1 = intense). Used by the settings panel when generating the glow stylesheet."
-        },
-        "neonTerminal2030.glow.radius": {
-          "type": "number",
-          "default": 6,
-          "minimum": 2,
-          "maximum": 16,
-          "markdownDescription": "Bloom spread radius in pixels for the glow add-on."
-        },
-        "neonTerminal2030.glow.accent": {
-          "type": "string",
-          "default": "mint",
-          "enum": ["mint", "magenta", "sky", "violet", "amber"],
-          "markdownDescription": "Signature accent color used for the cursor pulse and UI bloom."
-        }
-      }
-    }
+    ]
   }
 }
