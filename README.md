@@ -1,4 +1,4 @@
-# ⚡ 2030
+# ⚡ 2030 Theme
 
 A futuristic **2030 terminal-style** color theme collection for VS Code, inspired by modern AI CLIs (like Claude CLI).
 Deep-space backgrounds, neon accents, and **every syntax element gets its own distinct color** — so reading code feels like reading a live terminal stream.
