@@ -1,5 +1,6 @@
 .vscode/**
 .gitignore
+build-themes.js
 preview/**
 **/*.map
 scratchpad/**

@@ -1,7 +1,7 @@
 {
-  "name": "neon-terminal-2030",
-  "displayName": "Neon Terminal 2030",
-  "description": "A futuristic 2030 terminal-style theme inspired by AI CLIs — every syntax element has its own distinct neon color. Ships dark, OLED void, and daylight variants.",
+  "name": "2030",
+  "displayName": "2030",
+  "description": "A futuristic 2030 terminal-style theme collection inspired by AI CLIs — every syntax element gets its own distinct color. Seven variants: dark, OLED void, daylight, solar, synthwave, matrix, and aurora.",
   "version": "1.0.0",
   "publisher": "MahdiTorkaman",
   "engines": {
@@ -27,19 +27,39 @@
   "contributes": {
     "themes": [
       {
-        "label": "Neon Terminal 2030",
+        "label": "2030",
         "uiTheme": "vs-dark",
-        "path": "./themes/neon-terminal-2030-color-theme.json"
+        "path": "./themes/2030-color-theme.json"
       },
       {
-        "label": "Neon Terminal 2030 (Deep Void)",
+        "label": "2030 Void",
         "uiTheme": "vs-dark",
-        "path": "./themes/neon-terminal-2030-void-color-theme.json"
+        "path": "./themes/2030-void-color-theme.json"
       },
       {
-        "label": "Neon Terminal 2030 (Daylight)",
+        "label": "2030 Daylight",
         "uiTheme": "vs",
-        "path": "./themes/neon-terminal-2030-daylight-color-theme.json"
+        "path": "./themes/2030-daylight-color-theme.json"
+      },
+      {
+        "label": "2030 Solar",
+        "uiTheme": "vs-dark",
+        "path": "./themes/2030-solar-color-theme.json"
+      },
+      {
+        "label": "2030 Synthwave",
+        "uiTheme": "vs-dark",
+        "path": "./themes/2030-synthwave-color-theme.json"
+      },
+      {
+        "label": "2030 Matrix",
+        "uiTheme": "vs-dark",
+        "path": "./themes/2030-matrix-color-theme.json"
+      },
+      {
+        "label": "2030 Aurora",
+        "uiTheme": "vs-dark",
+        "path": "./themes/2030-aurora-color-theme.json"
       }
     ]
   }
